@@ -21,7 +21,7 @@ h1, h2{
 	height: 50px;
 	text-decoration: underline;	
 }
-a, .btn{
+.btn{
 	border: 0;
 	padding: 10px 20px;
 	border-radius: 5px;
@@ -38,11 +38,16 @@ a:hover, .btn:hover{
 	flex-wrap: wrap;
 	text-align: left;
 }
-.list__item{
+.list__a{
+	color:  #141414;
+	text-decoration: none;
 	margin: 10px 10px;
 	padding: 20px;
 	border: 1px solid #141414;
 	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 }
 .detail{
@@ -56,4 +61,8 @@ a:hover, .btn:hover{
 .index__img{
 	width: 125px;
 	height: auto;
+}
+.list__a:hover{
+	border: solid 1px grey;
+	box-shadow: 5px 5px 10px gray;
 }
